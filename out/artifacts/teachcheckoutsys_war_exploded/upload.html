@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en" class="fixed">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>审核管理</title>
+    <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="stylesheet" type="text/css" href="stylesheets/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="vendor/animate.css/animate.css">
+    <link rel="stylesheet" href="vendor/toastr/toastr.min.css">
+    <link rel="stylesheet" href="vendor/magnific-popup/magnific-popup.css">
+    <link rel="stylesheet" href="stylesheets/css/style.css">
+
+    <script src="javascripts/jquery-1.8.3.min.js"></script>
+    <script src="javascripts/jquery.lwtCountdown-1.0.js"></script>
+    <script src="js/ServerAddress.js"></script>
+    <script src="js/teachersj.js"></script>
+    <script src="layer/layer.js"></script>
+
+</head>
+
+<body>
+
+<div class="panel" id="fileupload">
+    <div class="panel-content">
+        <div class="row">
+            <div class="col-md-12">
+                <form class="form-inline"  enctype="multipart/form-data"  method="post" id="dataForm">
+                    <h5 class="mb-lg ">课程表导入</h5>
+                    <input type="hidden" id="serviceName" name="serviceName" value="sj" /><!-- 告诉后台我这是什么文件类型 -->
+                    <input type="hidden" id="path" name="path" value="teachsys/upload" /><!-- 给后台传递确认导入信号 -->
+                    <input type="hidden" id="fileName" name="fileName" value="试卷模板" /><!-- 告诉后台我这是什么文件类型 -->
+                    <input type="hidden" id="ext" name="ext" value="xls" /><!-- 给后台传递确认导入信号 -->
+                    <div class="form-group">
+                             <span>
+        						<a class="btn btn-wide btn-o btn-success btn-lg" id="afile" href="javascript:void(0);">选择文件
+                                <input type="file" name="file1" id="file1" /></a>
+        					</span>
+                    </div>
+                    <div class="form-group">
+                        <span id="spanFile">·只能上传后缀名为.xls、.xlsx文件</span>
+                    </div>
+                    <br><br>
+                    <div class="form-group">
+                        <input type="button" class="btn btn-wide btn-primary" onclick="uploadTable()" value="确认导入"/>
+                        <input type="button" class="btn btn-wide btn-warning" onclick="resetfile()" value="重新选择"/>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<script src="vendor/nano-scroller/nano-scroller.js"></script>
+<script src="javascripts/template-script.min.js"></script>
+<script src="javascripts/template-init.min.js"></script>
+
+</body>
+</html>

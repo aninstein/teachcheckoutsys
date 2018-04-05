@@ -1,0 +1,118 @@
+/*admintable的字段名*/
+public static String _id="id";
+public static String _adminid="adminid";
+public static String _adminname="adminname";
+public static String _admintel="admintel";
+public static String _adminemail="adminemail";
+public static String _adminusername="adminusername";
+public static String _adminpwd="adminpwd";
+public static String _adminposition="adminposition";
+
+
+/*classtable的字段名*/
+public static String _id="id";
+public static String _classid="classid";
+public static String _classname="classname";
+public static String _classspedt="classspedt";
+public static String _classnum="classnum";
+public static String _classstu="classstu";
+public static String _classtablename="classtablename";
+
+
+/*courses的字段名*/
+public static String _id="id";
+public static String _coursesid="coursesid";
+public static String _coursesname="coursesname";
+public static String _coursesmajor="coursesmajor";
+public static String _coursesgrade="coursesgrade";
+public static String _coursesteacher="coursesteacher";
+public static String _coursesstunum="coursesstunum";
+public static String _coursesplace="coursesplace";
+public static String _coursestime="coursestime";
+
+
+/*filetable的字段名*/
+public static String _id="id";
+public static String _fileid="fileid";
+public static String _filename="filename";
+public static String _fileauthor="fileauthor";
+public static String _fileautorname="fileautorname";
+public static String _filesubject="filesubject";
+public static String _filetype="filetype";
+public static String _fileurl="fileurl";
+public static String _filepath="filepath";
+public static String _fileperson="fileperson";
+public static String _fileuptype="fileuptype";
+
+
+/*sjtable的字段名*/
+public static String _id="id";
+public static String _sjid="sjid";
+public static String _sjname="sjname";
+public static String _sjauthor="sjauthor";
+public static String _sjtag="sjtag";
+public static String _sjdescribe="sjdescribe";
+public static String _sjtinum="sjtinum";
+public static String _sjchecksum="sjchecksum";
+public static String _sjcourseid="sjcourseid";
+public static String _sjcoursechp="sjcoursechp";
+public static String _sjreplynum="sjreplynum";
+public static String _sjright="sjright";
+
+
+/*students的字段名*/
+public static String _id="id";
+public static String _stuid="stuid";
+public static String _stuname="stuname";
+public static String _stuspedt="stuspedt";
+public static String _stulevel="stulevel";
+public static String _stuage="stuage";
+public static String _stusex="stusex";
+public static String _stuclassid="stuclassid";
+public static String _stucourses="stucourses";
+
+
+/*stuqiandao的字段名*/
+public static String _id="id";
+public static String _stuid="stuid";
+public static String _stuname="stuname";
+public static String _courseid="courseid";
+public static String _ts="ts";
+public static String _qichecksum="qichecksum";
+public static String _qidate="qidate";
+public static String _qitime="qitime";
+public static String _qistatu="qistatu";
+public static String _classnum="classnum";
+
+
+/*teachers的字段名*/
+public static String _id="id";
+public static String _teacherid="teacherid";
+public static String _teachername="teachername";
+public static String _teacheremail="teacheremail";
+public static String _teachertel="teachertel";
+public static String _teacherusername="teacherusername";
+public static String _teacherpwd="teacherpwd";
+public static String _teacherlevel="teacherlevel";
+public static String _teacherstatu="teacherstatu";
+public static String _teachercourse="teachercourse";
+public static String _teacherclass="teacherclass";
+public static String _teachfilenumber="teachfilenumber";
+public static String _teachtinumber="teachtinumber";
+public static String _longitude="longitude";
+public static String _latitude="latitude";
+
+
+/*titable的字段名*/
+public static String _id="id";
+public static String _tiid="tiid";
+public static String _tino="tino";
+public static String _titype="titype";
+public static String _tititle="tititle";
+public static String _ticontent="ticontent";
+public static String _tianswer="tianswer";
+public static String _timostanswer="timostanswer";
+public static String _tiright="tiright";
+public static String _sjid="sjid";
+
+

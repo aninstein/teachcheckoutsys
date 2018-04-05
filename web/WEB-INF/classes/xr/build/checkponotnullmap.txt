@@ -1,0 +1,257 @@
+/*admintablePO非空值的Map*/
+public Map<String,Object> getAdmintablePOMap(AdmintablePO admintablePO) {	Map<String,Object> map=new HashMap<String, Object>();
+if(admintablePO.getId()!=null){
+	map.put(AdmintablePO._id, admintablePO.getId());}
+if(admintablePO.getAdminid()!=null){
+	map.put(AdmintablePO._adminid, admintablePO.getAdminid());}
+if(admintablePO.getAdminname()!=null){
+	map.put(AdmintablePO._adminname, admintablePO.getAdminname());}
+if(admintablePO.getAdmintel()!=null){
+	map.put(AdmintablePO._admintel, admintablePO.getAdmintel());}
+if(admintablePO.getAdminemail()!=null){
+	map.put(AdmintablePO._adminemail, admintablePO.getAdminemail());}
+if(admintablePO.getAdminusername()!=null){
+	map.put(AdmintablePO._adminusername, admintablePO.getAdminusername());}
+if(admintablePO.getAdminpwd()!=null){
+	map.put(AdmintablePO._adminpwd, admintablePO.getAdminpwd());}
+if(admintablePO.getAdminposition()!=null){
+	map.put(AdmintablePO._adminposition, admintablePO.getAdminposition());}
+		return map;
+}
+
+
+
+/*classtablePO非空值的Map*/
+public Map<String,Object> getClasstablePOMap(ClasstablePO classtablePO) {	Map<String,Object> map=new HashMap<String, Object>();
+if(classtablePO.getId()!=null){
+	map.put(ClasstablePO._id, classtablePO.getId());}
+if(classtablePO.getClassid()!=null){
+	map.put(ClasstablePO._classid, classtablePO.getClassid());}
+if(classtablePO.getClassname()!=null){
+	map.put(ClasstablePO._classname, classtablePO.getClassname());}
+if(classtablePO.getClassteacher()!=null){
+	map.put(ClasstablePO._classteacher, classtablePO.getClassteacher());}
+if(classtablePO.getClassteacherid()!=null){
+	map.put(ClasstablePO._classteacherid, classtablePO.getClassteacherid());}
+if(classtablePO.getClasssubject()!=null){
+	map.put(ClasstablePO._classsubject, classtablePO.getClasssubject());}
+if(classtablePO.getClassspedt()!=null){
+	map.put(ClasstablePO._classspedt, classtablePO.getClassspedt());}
+if(classtablePO.getClassnum()!=null){
+	map.put(ClasstablePO._classnum, classtablePO.getClassnum());}
+if(classtablePO.getClassstu()!=null){
+	map.put(ClasstablePO._classstu, classtablePO.getClassstu());}
+if(classtablePO.getClasstablename()!=null){
+	map.put(ClasstablePO._classtablename, classtablePO.getClasstablename());}
+		return map;
+}
+
+
+
+/*coursesPO非空值的Map*/
+public Map<String,Object> getCoursesPOMap(CoursesPO coursesPO) {	Map<String,Object> map=new HashMap<String, Object>();
+if(coursesPO.getId()!=null){
+	map.put(CoursesPO._id, coursesPO.getId());}
+if(coursesPO.getCoursesid()!=null){
+	map.put(CoursesPO._coursesid, coursesPO.getCoursesid());}
+if(coursesPO.getCoursesname()!=null){
+	map.put(CoursesPO._coursesname, coursesPO.getCoursesname());}
+if(coursesPO.getCoursesmajor()!=null){
+	map.put(CoursesPO._coursesmajor, coursesPO.getCoursesmajor());}
+if(coursesPO.getCoursesgrade()!=null){
+	map.put(CoursesPO._coursesgrade, coursesPO.getCoursesgrade());}
+if(coursesPO.getCoursesteacher()!=null){
+	map.put(CoursesPO._coursesteacher, coursesPO.getCoursesteacher());}
+if(coursesPO.getCoursesstunum()!=null){
+	map.put(CoursesPO._coursesstunum, coursesPO.getCoursesstunum());}
+if(coursesPO.getCoursesplace()!=null){
+	map.put(CoursesPO._coursesplace, coursesPO.getCoursesplace());}
+if(coursesPO.getCoursesweek()!=null){
+	map.put(CoursesPO._coursesweek, coursesPO.getCoursesweek());}
+if(coursesPO.getCoursestime()!=null){
+	map.put(CoursesPO._coursestime, coursesPO.getCoursestime());}
+		return map;
+}
+
+
+
+/*filetablePO非空值的Map*/
+public Map<String,Object> getFiletablePOMap(FiletablePO filetablePO) {	Map<String,Object> map=new HashMap<String, Object>();
+if(filetablePO.getId()!=null){
+	map.put(FiletablePO._id, filetablePO.getId());}
+if(filetablePO.getFileid()!=null){
+	map.put(FiletablePO._fileid, filetablePO.getFileid());}
+if(filetablePO.getFilename()!=null){
+	map.put(FiletablePO._filename, filetablePO.getFilename());}
+if(filetablePO.getFileauthor()!=null){
+	map.put(FiletablePO._fileauthor, filetablePO.getFileauthor());}
+if(filetablePO.getFileautorname()!=null){
+	map.put(FiletablePO._fileautorname, filetablePO.getFileautorname());}
+if(filetablePO.getFilesubject()!=null){
+	map.put(FiletablePO._filesubject, filetablePO.getFilesubject());}
+if(filetablePO.getFiletype()!=null){
+	map.put(FiletablePO._filetype, filetablePO.getFiletype());}
+if(filetablePO.getFileurl()!=null){
+	map.put(FiletablePO._fileurl, filetablePO.getFileurl());}
+if(filetablePO.getFilepath()!=null){
+	map.put(FiletablePO._filepath, filetablePO.getFilepath());}
+if(filetablePO.getFileperson()!=null){
+	map.put(FiletablePO._fileperson, filetablePO.getFileperson());}
+if(filetablePO.getFileupdate()!=null){
+	map.put(FiletablePO._fileupdate, filetablePO.getFileupdate());}
+		return map;
+}
+
+
+
+/*sjtablePO非空值的Map*/
+public Map<String,Object> getSjtablePOMap(SjtablePO sjtablePO) {	Map<String,Object> map=new HashMap<String, Object>();
+if(sjtablePO.getId()!=null){
+	map.put(SjtablePO._id, sjtablePO.getId());}
+if(sjtablePO.getSjid()!=null){
+	map.put(SjtablePO._sjid, sjtablePO.getSjid());}
+if(sjtablePO.getSjname()!=null){
+	map.put(SjtablePO._sjname, sjtablePO.getSjname());}
+if(sjtablePO.getSjauthor()!=null){
+	map.put(SjtablePO._sjauthor, sjtablePO.getSjauthor());}
+if(sjtablePO.getSjtag()!=null){
+	map.put(SjtablePO._sjtag, sjtablePO.getSjtag());}
+if(sjtablePO.getSjdescribe()!=null){
+	map.put(SjtablePO._sjdescribe, sjtablePO.getSjdescribe());}
+if(sjtablePO.getSjtinum()!=null){
+	map.put(SjtablePO._sjtinum, sjtablePO.getSjtinum());}
+if(sjtablePO.getSjcontain()!=null){
+	map.put(SjtablePO._sjcontain, sjtablePO.getSjcontain());}
+if(sjtablePO.getSjchecksum()!=null){
+	map.put(SjtablePO._sjchecksum, sjtablePO.getSjchecksum());}
+if(sjtablePO.getSjcourseid()!=null){
+	map.put(SjtablePO._sjcourseid, sjtablePO.getSjcourseid());}
+if(sjtablePO.getSjcoursechp()!=null){
+	map.put(SjtablePO._sjcoursechp, sjtablePO.getSjcoursechp());}
+if(sjtablePO.getSjreplynum()!=null){
+	map.put(SjtablePO._sjreplynum, sjtablePO.getSjreplynum());}
+if(sjtablePO.getSjright()!=null){
+	map.put(SjtablePO._sjright, sjtablePO.getSjright());}
+if(sjtablePO.getSjcreatetime()!=null){
+	map.put(SjtablePO._sjcreatetime, sjtablePO.getSjcreatetime());}
+		return map;
+}
+
+
+
+/*studentsPO非空值的Map*/
+public Map<String,Object> getStudentsPOMap(StudentsPO studentsPO) {	Map<String,Object> map=new HashMap<String, Object>();
+if(studentsPO.getId()!=null){
+	map.put(StudentsPO._id, studentsPO.getId());}
+if(studentsPO.getStuid()!=null){
+	map.put(StudentsPO._stuid, studentsPO.getStuid());}
+if(studentsPO.getStuname()!=null){
+	map.put(StudentsPO._stuname, studentsPO.getStuname());}
+if(studentsPO.getStuspedt()!=null){
+	map.put(StudentsPO._stuspedt, studentsPO.getStuspedt());}
+if(studentsPO.getStulevel()!=null){
+	map.put(StudentsPO._stulevel, studentsPO.getStulevel());}
+if(studentsPO.getStuage()!=null){
+	map.put(StudentsPO._stuage, studentsPO.getStuage());}
+if(studentsPO.getStusex()!=null){
+	map.put(StudentsPO._stusex, studentsPO.getStusex());}
+if(studentsPO.getStuclassid()!=null){
+	map.put(StudentsPO._stuclassid, studentsPO.getStuclassid());}
+if(studentsPO.getStucourses()!=null){
+	map.put(StudentsPO._stucourses, studentsPO.getStucourses());}
+		return map;
+}
+
+
+
+/*stuqiandaoPO非空值的Map*/
+public Map<String,Object> getStuqiandaoPOMap(StuqiandaoPO stuqiandaoPO) {	Map<String,Object> map=new HashMap<String, Object>();
+if(stuqiandaoPO.getId()!=null){
+	map.put(StuqiandaoPO._id, stuqiandaoPO.getId());}
+if(stuqiandaoPO.getStuid()!=null){
+	map.put(StuqiandaoPO._stuid, stuqiandaoPO.getStuid());}
+if(stuqiandaoPO.getStuname()!=null){
+	map.put(StuqiandaoPO._stuname, stuqiandaoPO.getStuname());}
+if(stuqiandaoPO.getCourseid()!=null){
+	map.put(StuqiandaoPO._courseid, stuqiandaoPO.getCourseid());}
+if(stuqiandaoPO.getTs()!=null){
+	map.put(StuqiandaoPO._ts, stuqiandaoPO.getTs());}
+if(stuqiandaoPO.getQichecksum()!=null){
+	map.put(StuqiandaoPO._qichecksum, stuqiandaoPO.getQichecksum());}
+if(stuqiandaoPO.getQidate()!=null){
+	map.put(StuqiandaoPO._qidate, stuqiandaoPO.getQidate());}
+if(stuqiandaoPO.getQitime()!=null){
+	map.put(StuqiandaoPO._qitime, stuqiandaoPO.getQitime());}
+if(stuqiandaoPO.getQistatu()!=null){
+	map.put(StuqiandaoPO._qistatu, stuqiandaoPO.getQistatu());}
+if(stuqiandaoPO.getClassnum()!=null){
+	map.put(StuqiandaoPO._classnum, stuqiandaoPO.getClassnum());}
+		return map;
+}
+
+
+
+/*teachersPO非空值的Map*/
+public Map<String,Object> getTeachersPOMap(TeachersPO teachersPO) {	Map<String,Object> map=new HashMap<String, Object>();
+if(teachersPO.getId()!=null){
+	map.put(TeachersPO._id, teachersPO.getId());}
+if(teachersPO.getTeacherid()!=null){
+	map.put(TeachersPO._teacherid, teachersPO.getTeacherid());}
+if(teachersPO.getTeachername()!=null){
+	map.put(TeachersPO._teachername, teachersPO.getTeachername());}
+if(teachersPO.getTeacheremail()!=null){
+	map.put(TeachersPO._teacheremail, teachersPO.getTeacheremail());}
+if(teachersPO.getTeachertel()!=null){
+	map.put(TeachersPO._teachertel, teachersPO.getTeachertel());}
+if(teachersPO.getTeacherusername()!=null){
+	map.put(TeachersPO._teacherusername, teachersPO.getTeacherusername());}
+if(teachersPO.getTeacherpwd()!=null){
+	map.put(TeachersPO._teacherpwd, teachersPO.getTeacherpwd());}
+if(teachersPO.getTeacherlevel()!=null){
+	map.put(TeachersPO._teacherlevel, teachersPO.getTeacherlevel());}
+if(teachersPO.getTeacherstatu()!=null){
+	map.put(TeachersPO._teacherstatu, teachersPO.getTeacherstatu());}
+if(teachersPO.getTeachercourse()!=null){
+	map.put(TeachersPO._teachercourse, teachersPO.getTeachercourse());}
+if(teachersPO.getTeacherclass()!=null){
+	map.put(TeachersPO._teacherclass, teachersPO.getTeacherclass());}
+if(teachersPO.getTeachfilenumber()!=null){
+	map.put(TeachersPO._teachfilenumber, teachersPO.getTeachfilenumber());}
+if(teachersPO.getTeachtinumber()!=null){
+	map.put(TeachersPO._teachtinumber, teachersPO.getTeachtinumber());}
+if(teachersPO.getLongitude()!=null){
+	map.put(TeachersPO._longitude, teachersPO.getLongitude());}
+if(teachersPO.getLatitude()!=null){
+	map.put(TeachersPO._latitude, teachersPO.getLatitude());}
+		return map;
+}
+
+
+
+/*titablePO非空值的Map*/
+public Map<String,Object> getTitablePOMap(TitablePO titablePO) {	Map<String,Object> map=new HashMap<String, Object>();
+if(titablePO.getId()!=null){
+	map.put(TitablePO._id, titablePO.getId());}
+if(titablePO.getTiid()!=null){
+	map.put(TitablePO._tiid, titablePO.getTiid());}
+if(titablePO.getTino()!=null){
+	map.put(TitablePO._tino, titablePO.getTino());}
+if(titablePO.getTitype()!=null){
+	map.put(TitablePO._titype, titablePO.getTitype());}
+if(titablePO.getTititle()!=null){
+	map.put(TitablePO._tititle, titablePO.getTititle());}
+if(titablePO.getTicontent()!=null){
+	map.put(TitablePO._ticontent, titablePO.getTicontent());}
+if(titablePO.getTianswer()!=null){
+	map.put(TitablePO._tianswer, titablePO.getTianswer());}
+if(titablePO.getTimostanswer()!=null){
+	map.put(TitablePO._timostanswer, titablePO.getTimostanswer());}
+if(titablePO.getTiright()!=null){
+	map.put(TitablePO._tiright, titablePO.getTiright());}
+if(titablePO.getSjid()!=null){
+	map.put(TitablePO._sjid, titablePO.getSjid());}
+		return map;
+}
+
+
+

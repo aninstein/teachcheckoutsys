@@ -1,0 +1,54 @@
+/*admintablePODelete*/
+public String deleteAdmintablelePOSql(AdmintablePO admintablePO) {
+        CheckPOnotNullMap checkPOnotNullMap = new CheckPOnotNullMap();
+        Map<String, Object> map = checkPOnotNullMap.getAdmintablePOMap(admintablePO);
+        return "DELETE FROM "+DatabaseTableNames._admintable+"  WHERE "+String.join(",",returnKVString(map));
+    }
+/*classtablePODelete*/
+public String deleteClasstablelePOSql(ClasstablePO classtablePO) {
+        CheckPOnotNullMap checkPOnotNullMap = new CheckPOnotNullMap();
+        Map<String, Object> map = checkPOnotNullMap.getClasstablePOMap(classtablePO);
+        return "DELETE FROM "+DatabaseTableNames._classtable+"  WHERE "+String.join(",",returnKVString(map));
+    }
+/*coursesPODelete*/
+public String deleteCourseslePOSql(CoursesPO coursesPO) {
+        CheckPOnotNullMap checkPOnotNullMap = new CheckPOnotNullMap();
+        Map<String, Object> map = checkPOnotNullMap.getCoursesPOMap(coursesPO);
+        return "DELETE FROM "+DatabaseTableNames._courses+"  WHERE "+String.join(",",returnKVString(map));
+    }
+/*filetablePODelete*/
+public String deleteFiletablelePOSql(FiletablePO filetablePO) {
+        CheckPOnotNullMap checkPOnotNullMap = new CheckPOnotNullMap();
+        Map<String, Object> map = checkPOnotNullMap.getFiletablePOMap(filetablePO);
+        return "DELETE FROM "+DatabaseTableNames._filetable+"  WHERE "+String.join(",",returnKVString(map));
+    }
+/*sjtablePODelete*/
+public String deleteSjtablelePOSql(SjtablePO sjtablePO) {
+        CheckPOnotNullMap checkPOnotNullMap = new CheckPOnotNullMap();
+        Map<String, Object> map = checkPOnotNullMap.getSjtablePOMap(sjtablePO);
+        return "DELETE FROM "+DatabaseTableNames._sjtable+"  WHERE "+String.join(",",returnKVString(map));
+    }
+/*studentsPODelete*/
+public String deleteStudentslePOSql(StudentsPO studentsPO) {
+        CheckPOnotNullMap checkPOnotNullMap = new CheckPOnotNullMap();
+        Map<String, Object> map = checkPOnotNullMap.getStudentsPOMap(studentsPO);
+        return "DELETE FROM "+DatabaseTableNames._students+"  WHERE "+String.join(",",returnKVString(map));
+    }
+/*stuqiandaoPODelete*/
+public String deleteStuqiandaolePOSql(StuqiandaoPO stuqiandaoPO) {
+        CheckPOnotNullMap checkPOnotNullMap = new CheckPOnotNullMap();
+        Map<String, Object> map = checkPOnotNullMap.getStuqiandaoPOMap(stuqiandaoPO);
+        return "DELETE FROM "+DatabaseTableNames._stuqiandao+"  WHERE "+String.join(",",returnKVString(map));
+    }
+/*teachersPODelete*/
+public String deleteTeacherslePOSql(TeachersPO teachersPO) {
+        CheckPOnotNullMap checkPOnotNullMap = new CheckPOnotNullMap();
+        Map<String, Object> map = checkPOnotNullMap.getTeachersPOMap(teachersPO);
+        return "DELETE FROM "+DatabaseTableNames._teachers+"  WHERE "+String.join(",",returnKVString(map));
+    }
+/*titablePODelete*/
+public String deleteTitablelePOSql(TitablePO titablePO) {
+        CheckPOnotNullMap checkPOnotNullMap = new CheckPOnotNullMap();
+        Map<String, Object> map = checkPOnotNullMap.getTitablePOMap(titablePO);
+        return "DELETE FROM "+DatabaseTableNames._titable+"  WHERE "+String.join(",",returnKVString(map));
+    }

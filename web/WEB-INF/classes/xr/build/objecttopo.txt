@@ -1,0 +1,72 @@
+/* Object to admintablePO */
+public static List<AdmintablePO> objectToAdmintablePO(List<Object> objectList) {
+        List<AdmintablePO> list=new ArrayList<>();
+        for (Object object:objectList){
+            list.add((AdmintablePO) object);
+        }
+        return list;
+    }
+/* Object to classtablePO */
+public static List<ClasstablePO> objectToClasstablePO(List<Object> objectList) {
+        List<ClasstablePO> list=new ArrayList<>();
+        for (Object object:objectList){
+            list.add((ClasstablePO) object);
+        }
+        return list;
+    }
+/* Object to coursesPO */
+public static List<CoursesPO> objectToCoursesPO(List<Object> objectList) {
+        List<CoursesPO> list=new ArrayList<>();
+        for (Object object:objectList){
+            list.add((CoursesPO) object);
+        }
+        return list;
+    }
+/* Object to filetablePO */
+public static List<FiletablePO> objectToFiletablePO(List<Object> objectList) {
+        List<FiletablePO> list=new ArrayList<>();
+        for (Object object:objectList){
+            list.add((FiletablePO) object);
+        }
+        return list;
+    }
+/* Object to sjtablePO */
+public static List<SjtablePO> objectToSjtablePO(List<Object> objectList) {
+        List<SjtablePO> list=new ArrayList<>();
+        for (Object object:objectList){
+            list.add((SjtablePO) object);
+        }
+        return list;
+    }
+/* Object to studentsPO */
+public static List<StudentsPO> objectToStudentsPO(List<Object> objectList) {
+        List<StudentsPO> list=new ArrayList<>();
+        for (Object object:objectList){
+            list.add((StudentsPO) object);
+        }
+        return list;
+    }
+/* Object to stuqiandaoPO */
+public static List<StuqiandaoPO> objectToStuqiandaoPO(List<Object> objectList) {
+        List<StuqiandaoPO> list=new ArrayList<>();
+        for (Object object:objectList){
+            list.add((StuqiandaoPO) object);
+        }
+        return list;
+    }
+/* Object to teachersPO */
+public static List<TeachersPO> objectToTeachersPO(List<Object> objectList) {
+        List<TeachersPO> list=new ArrayList<>();
+        for (Object object:objectList){
+            list.add((TeachersPO) object);
+        }
+        return list;
+    }
+/* Object to titablePO */
+public static List<TitablePO> objectToTitablePO(List<Object> objectList) {
+        List<TitablePO> list=new ArrayList<>();
+        for (Object object:objectList){
+            list.add((TitablePO) object);
+        }
+        return list;
+    }

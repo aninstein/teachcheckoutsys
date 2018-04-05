@@ -1,0 +1,46 @@
+
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+html,body
+{
+	width: 100%;
+	height: 100%;
+}
+
+body
+{
+	display: flex;
+	flex-direction: column;
+	
+}
+
+#div_body
+{
+	align-self: center;
+	
+	margin-top: 50px;
+}
+#p_teacher_register_title
+{
+	font-family: "微软雅黑";
+	font-weight: bold;
+	font-size: x-large
+}
+#div_register_box div
+{
+	margin-top: 15px;
+}
+#ip_commit_register
+{
+	margin-top: 25px;
+	margin-left: 75px;
+	width: 100px;
+	height: 25px;
+}
+
+
+

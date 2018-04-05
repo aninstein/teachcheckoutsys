@@ -1,0 +1,40 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+html,body
+{
+	width: 100%;
+	height: 100%;
+}
+
+body
+{
+	background-color:  #50d2c2;
+	
+}
+
+
+#div_header
+{
+	margin-top: 15px;
+	margin-left: 45px;
+	display: flex;
+	flex-direction: row;
+}
+#btn_defaultispass
+{
+	width: 55px;
+}
+
+#div_pass_teacher_list
+{
+	margin-left: 45px;
+	margin-top: 55px;
+}
+
+
+
+

@@ -1,0 +1,344 @@
+/*admintable检查不为空*/
+if(admintablePO.getId()!=null){
+	colnameList.add(AdmintablePO._id);
+	valuesList.add(admintablePO.getId());
+}
+if(admintablePO.getAdminid()!=null){
+	colnameList.add(AdmintablePO._adminid);
+	valuesList.add(admintablePO.getAdminid());
+}
+if(admintablePO.getAdminname()!=null){
+	colnameList.add(AdmintablePO._adminname);
+	valuesList.add(admintablePO.getAdminname());
+}
+if(admintablePO.getAdmintel()!=null){
+	colnameList.add(AdmintablePO._admintel);
+	valuesList.add(admintablePO.getAdmintel());
+}
+if(admintablePO.getAdminemail()!=null){
+	colnameList.add(AdmintablePO._adminemail);
+	valuesList.add(admintablePO.getAdminemail());
+}
+if(admintablePO.getAdminusername()!=null){
+	colnameList.add(AdmintablePO._adminusername);
+	valuesList.add(admintablePO.getAdminusername());
+}
+if(admintablePO.getAdminpwd()!=null){
+	colnameList.add(AdmintablePO._adminpwd);
+	valuesList.add(admintablePO.getAdminpwd());
+}
+if(admintablePO.getAdminposition()!=null){
+	colnameList.add(AdmintablePO._adminposition);
+	valuesList.add(admintablePO.getAdminposition());
+}
+
+
+/*classtable检查不为空*/
+if(classtablePO.getId()!=null){
+	colnameList.add(ClasstablePO._id);
+	valuesList.add(classtablePO.getId());
+}
+if(classtablePO.getClassid()!=null){
+	colnameList.add(ClasstablePO._classid);
+	valuesList.add(classtablePO.getClassid());
+}
+if(classtablePO.getClassname()!=null){
+	colnameList.add(ClasstablePO._classname);
+	valuesList.add(classtablePO.getClassname());
+}
+if(classtablePO.getClassspedt()!=null){
+	colnameList.add(ClasstablePO._classspedt);
+	valuesList.add(classtablePO.getClassspedt());
+}
+if(classtablePO.getClassnum()!=null){
+	colnameList.add(ClasstablePO._classnum);
+	valuesList.add(classtablePO.getClassnum());
+}
+if(classtablePO.getClassstu()!=null){
+	colnameList.add(ClasstablePO._classstu);
+	valuesList.add(classtablePO.getClassstu());
+}
+if(classtablePO.getClasstablename()!=null){
+	colnameList.add(ClasstablePO._classtablename);
+	valuesList.add(classtablePO.getClasstablename());
+}
+
+
+/*courses检查不为空*/
+if(coursesPO.getId()!=null){
+	colnameList.add(CoursesPO._id);
+	valuesList.add(coursesPO.getId());
+}
+if(coursesPO.getCoursesid()!=null){
+	colnameList.add(CoursesPO._coursesid);
+	valuesList.add(coursesPO.getCoursesid());
+}
+if(coursesPO.getCoursesname()!=null){
+	colnameList.add(CoursesPO._coursesname);
+	valuesList.add(coursesPO.getCoursesname());
+}
+if(coursesPO.getCoursesmajor()!=null){
+	colnameList.add(CoursesPO._coursesmajor);
+	valuesList.add(coursesPO.getCoursesmajor());
+}
+if(coursesPO.getCoursesgrade()!=null){
+	colnameList.add(CoursesPO._coursesgrade);
+	valuesList.add(coursesPO.getCoursesgrade());
+}
+if(coursesPO.getCoursesteacher()!=null){
+	colnameList.add(CoursesPO._coursesteacher);
+	valuesList.add(coursesPO.getCoursesteacher());
+}
+if(coursesPO.getCoursesstunum()!=null){
+	colnameList.add(CoursesPO._coursesstunum);
+	valuesList.add(coursesPO.getCoursesstunum());
+}
+if(coursesPO.getCoursesplace()!=null){
+	colnameList.add(CoursesPO._coursesplace);
+	valuesList.add(coursesPO.getCoursesplace());
+}
+if(coursesPO.getCoursestime()!=null){
+	colnameList.add(CoursesPO._coursestime);
+	valuesList.add(coursesPO.getCoursestime());
+}
+
+
+/*sjtable检查不为空*/
+if(sjtablePO.getId()!=null){
+	colnameList.add(SjtablePO._id);
+	valuesList.add(sjtablePO.getId());
+}
+if(sjtablePO.getSjid()!=null){
+	colnameList.add(SjtablePO._sjid);
+	valuesList.add(sjtablePO.getSjid());
+}
+if(sjtablePO.getSjname()!=null){
+	colnameList.add(SjtablePO._sjname);
+	valuesList.add(sjtablePO.getSjname());
+}
+if(sjtablePO.getSjauthor()!=null){
+	colnameList.add(SjtablePO._sjauthor);
+	valuesList.add(sjtablePO.getSjauthor());
+}
+if(sjtablePO.getSjtag()!=null){
+	colnameList.add(SjtablePO._sjtag);
+	valuesList.add(sjtablePO.getSjtag());
+}
+if(sjtablePO.getSjdescribe()!=null){
+	colnameList.add(SjtablePO._sjdescribe);
+	valuesList.add(sjtablePO.getSjdescribe());
+}
+if(sjtablePO.getSjtinum()!=null){
+	colnameList.add(SjtablePO._sjtinum);
+	valuesList.add(sjtablePO.getSjtinum());
+}
+if(sjtablePO.getSjchecksum()!=null){
+	colnameList.add(SjtablePO._sjchecksum);
+	valuesList.add(sjtablePO.getSjchecksum());
+}
+if(sjtablePO.getSjcourseid()!=null){
+	colnameList.add(SjtablePO._sjcourseid);
+	valuesList.add(sjtablePO.getSjcourseid());
+}
+if(sjtablePO.getSjcoursechp()!=null){
+	colnameList.add(SjtablePO._sjcoursechp);
+	valuesList.add(sjtablePO.getSjcoursechp());
+}
+if(sjtablePO.getSjreplynum()!=null){
+	colnameList.add(SjtablePO._sjreplynum);
+	valuesList.add(sjtablePO.getSjreplynum());
+}
+if(sjtablePO.getSjright()!=null){
+	colnameList.add(SjtablePO._sjright);
+	valuesList.add(sjtablePO.getSjright());
+}
+
+
+/*students检查不为空*/
+if(studentsPO.getId()!=null){
+	colnameList.add(StudentsPO._id);
+	valuesList.add(studentsPO.getId());
+}
+if(studentsPO.getStuid()!=null){
+	colnameList.add(StudentsPO._stuid);
+	valuesList.add(studentsPO.getStuid());
+}
+if(studentsPO.getStuname()!=null){
+	colnameList.add(StudentsPO._stuname);
+	valuesList.add(studentsPO.getStuname());
+}
+if(studentsPO.getStuspedt()!=null){
+	colnameList.add(StudentsPO._stuspedt);
+	valuesList.add(studentsPO.getStuspedt());
+}
+if(studentsPO.getStulevel()!=null){
+	colnameList.add(StudentsPO._stulevel);
+	valuesList.add(studentsPO.getStulevel());
+}
+if(studentsPO.getStuage()!=null){
+	colnameList.add(StudentsPO._stuage);
+	valuesList.add(studentsPO.getStuage());
+}
+if(studentsPO.getStusex()!=null){
+	colnameList.add(StudentsPO._stusex);
+	valuesList.add(studentsPO.getStusex());
+}
+if(studentsPO.getStuclassid()!=null){
+	colnameList.add(StudentsPO._stuclassid);
+	valuesList.add(studentsPO.getStuclassid());
+}
+if(studentsPO.getStucourses()!=null){
+	colnameList.add(StudentsPO._stucourses);
+	valuesList.add(studentsPO.getStucourses());
+}
+
+
+/*stuqiandao检查不为空*/
+if(stuqiandaoPO.getId()!=null){
+	colnameList.add(StuqiandaoPO._id);
+	valuesList.add(stuqiandaoPO.getId());
+}
+if(stuqiandaoPO.getStuid()!=null){
+	colnameList.add(StuqiandaoPO._stuid);
+	valuesList.add(stuqiandaoPO.getStuid());
+}
+if(stuqiandaoPO.getStuname()!=null){
+	colnameList.add(StuqiandaoPO._stuname);
+	valuesList.add(stuqiandaoPO.getStuname());
+}
+if(stuqiandaoPO.getCourseid()!=null){
+	colnameList.add(StuqiandaoPO._courseid);
+	valuesList.add(stuqiandaoPO.getCourseid());
+}
+if(stuqiandaoPO.getTs()!=null){
+	colnameList.add(StuqiandaoPO._ts);
+	valuesList.add(stuqiandaoPO.getTs());
+}
+if(stuqiandaoPO.getQichecksum()!=null){
+	colnameList.add(StuqiandaoPO._qichecksum);
+	valuesList.add(stuqiandaoPO.getQichecksum());
+}
+if(stuqiandaoPO.getQidate()!=null){
+	colnameList.add(StuqiandaoPO._qidate);
+	valuesList.add(stuqiandaoPO.getQidate());
+}
+if(stuqiandaoPO.getQitime()!=null){
+	colnameList.add(StuqiandaoPO._qitime);
+	valuesList.add(stuqiandaoPO.getQitime());
+}
+if(stuqiandaoPO.getQistatu()!=null){
+	colnameList.add(StuqiandaoPO._qistatu);
+	valuesList.add(stuqiandaoPO.getQistatu());
+}
+if(stuqiandaoPO.getClassnum()!=null){
+	colnameList.add(StuqiandaoPO._classnum);
+	valuesList.add(stuqiandaoPO.getClassnum());
+}
+
+
+/*teachers检查不为空*/
+if(teachersPO.getId()!=null){
+	colnameList.add(TeachersPO._id);
+	valuesList.add(teachersPO.getId());
+}
+if(teachersPO.getTeacherid()!=null){
+	colnameList.add(TeachersPO._teacherid);
+	valuesList.add(teachersPO.getTeacherid());
+}
+if(teachersPO.getTeachername()!=null){
+	colnameList.add(TeachersPO._teachername);
+	valuesList.add(teachersPO.getTeachername());
+}
+if(teachersPO.getTeacheremail()!=null){
+	colnameList.add(TeachersPO._teacheremail);
+	valuesList.add(teachersPO.getTeacheremail());
+}
+if(teachersPO.getTeachertel()!=null){
+	colnameList.add(TeachersPO._teachertel);
+	valuesList.add(teachersPO.getTeachertel());
+}
+if(teachersPO.getTeacherusername()!=null){
+	colnameList.add(TeachersPO._teacherusername);
+	valuesList.add(teachersPO.getTeacherusername());
+}
+if(teachersPO.getTeacherpwd()!=null){
+	colnameList.add(TeachersPO._teacherpwd);
+	valuesList.add(teachersPO.getTeacherpwd());
+}
+if(teachersPO.getTeacherlevel()!=null){
+	colnameList.add(TeachersPO._teacherlevel);
+	valuesList.add(teachersPO.getTeacherlevel());
+}
+if(teachersPO.getTeacherstatu()!=null){
+	colnameList.add(TeachersPO._teacherstatu);
+	valuesList.add(teachersPO.getTeacherstatu());
+}
+if(teachersPO.getTeachercourse()!=null){
+	colnameList.add(TeachersPO._teachercourse);
+	valuesList.add(teachersPO.getTeachercourse());
+}
+if(teachersPO.getTeacherclass()!=null){
+	colnameList.add(TeachersPO._teacherclass);
+	valuesList.add(teachersPO.getTeacherclass());
+}
+if(teachersPO.getTeachfilenumber()!=null){
+	colnameList.add(TeachersPO._teachfilenumber);
+	valuesList.add(teachersPO.getTeachfilenumber());
+}
+if(teachersPO.getTeachtinumber()!=null){
+	colnameList.add(TeachersPO._teachtinumber);
+	valuesList.add(teachersPO.getTeachtinumber());
+}
+if(teachersPO.getLongitude()!=null){
+	colnameList.add(TeachersPO._longitude);
+	valuesList.add(teachersPO.getLongitude());
+}
+if(teachersPO.getLatitude()!=null){
+	colnameList.add(TeachersPO._latitude);
+	valuesList.add(teachersPO.getLatitude());
+}
+
+
+/*titable检查不为空*/
+if(titablePO.getId()!=null){
+	colnameList.add(TitablePO._id);
+	valuesList.add(titablePO.getId());
+}
+if(titablePO.getTiid()!=null){
+	colnameList.add(TitablePO._tiid);
+	valuesList.add(titablePO.getTiid());
+}
+if(titablePO.getTino()!=null){
+	colnameList.add(TitablePO._tino);
+	valuesList.add(titablePO.getTino());
+}
+if(titablePO.getTitype()!=null){
+	colnameList.add(TitablePO._titype);
+	valuesList.add(titablePO.getTitype());
+}
+if(titablePO.getTititle()!=null){
+	colnameList.add(TitablePO._tititle);
+	valuesList.add(titablePO.getTititle());
+}
+if(titablePO.getTicontent()!=null){
+	colnameList.add(TitablePO._ticontent);
+	valuesList.add(titablePO.getTicontent());
+}
+if(titablePO.getTianswer()!=null){
+	colnameList.add(TitablePO._tianswer);
+	valuesList.add(titablePO.getTianswer());
+}
+if(titablePO.getTimostanswer()!=null){
+	colnameList.add(TitablePO._timostanswer);
+	valuesList.add(titablePO.getTimostanswer());
+}
+if(titablePO.getTiright()!=null){
+	colnameList.add(TitablePO._tiright);
+	valuesList.add(titablePO.getTiright());
+}
+if(titablePO.getSjid()!=null){
+	colnameList.add(TitablePO._sjid);
+	valuesList.add(titablePO.getSjid());
+}
+
+

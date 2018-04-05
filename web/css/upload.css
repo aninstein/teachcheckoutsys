@@ -1,0 +1,9 @@
+#sjfile1{
+    position: absolute;
+    right: 0;
+    top: 0;
+    opacity: 0;/*关键点*/
+    filter: alpha(opacity=0);/*兼容ie*/
+    font-size: 100px;/* 增大不同浏览器的可点击区域 */
+    cursor: pointer;
+}

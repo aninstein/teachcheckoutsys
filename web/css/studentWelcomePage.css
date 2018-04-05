@@ -1,0 +1,46 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+html,body
+{
+	width: 100%;
+	height: 100%;
+}
+
+body
+{
+	background-color: #50d2c2;
+}
+
+#div_body
+{
+	margin-top: 75px;
+	
+	display: flex;
+	display : -webkit-box;
+	flex-direction: column;
+	-webkit-box-orient:vertical;
+	text-align: center;
+	/*align-items: center;*/
+}
+
+#img_app_logo
+{
+	width: 70%;
+}
+
+#p_app_welcome_text
+{
+	margin-top: 15px;
+	font-family: "arial, helvetica, sans-serif";
+	color: darkslateblue;
+	font-size: larger;
+	font-weight: 500;
+	
+}
+
+
+
+

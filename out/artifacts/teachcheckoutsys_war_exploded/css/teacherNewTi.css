@@ -1,0 +1,123 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+html,body
+{
+	width: 100%;
+}
+
+#div_body
+{
+	width: 100%;
+}
+
+#p_back
+{
+	position: fixed;
+	left: 0;
+	top: 0;
+	cursor: pointer;
+}
+#div_right_menu
+{
+	position: fixed;
+	top: 0;
+	right: 0px;
+	
+	display: flex;
+	flex-direction: row;
+}
+#p_add_ti_item
+{
+	cursor: pointer;
+}
+#p_ok_shijuan
+{
+	margin-left: 45px;
+	margin-right: 5px;
+	
+	cursor: pointer;
+}
+
+
+#div_shijuan_title
+{
+	margin-top: 45px;
+	margin-left: 5px;
+}
+#shijuan_name,#shijuan_tag,#shijuan_note,#shijuan_checked_code
+{
+	margin-top: 9px;
+	width:30%;
+}
+
+#div_ti_list
+{
+	
+	margin-left: 45px;
+	margin-top: 45px;
+}
+.div_ti_item
+{
+	
+}
+.div_ti_item_title
+{
+	
+}
+.div_ti_item_title_header
+{
+	
+	
+	display: flex;
+	flex-direction: row;
+}
+.btn_add_choose_item
+{
+	margin-left: 145px;
+}
+.btn_del_choose_item
+{
+	margin-left: 15px;
+}
+.btn_del_ti_item
+{
+	margin-left: 115px;
+}
+.ta_ti_desc
+{
+	min-width: 90%;
+	max-width: 90%;
+}
+.div_ti_item_choose_content
+{
+	width: 100%;
+}
+.div_ti_item_content_choose_item
+{
+	margin-top: 15px;
+	width: 100%;
+	
+	display: flex;
+	flex-direction: row;
+}
+.radio_ti_choose_item_letter
+{
+	
+}
+.p_ti_choose_item_letter
+{
+	
+}
+.p_ti_choose_item_desc
+{
+	min-width: 50%;
+}
+
+
+
+
+
+

@@ -1,0 +1,63 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+html,body
+{
+	width: 100%;
+}
+
+body
+{
+	background-color: #50d2c2;
+}
+
+#div_body
+{
+	margin-top: 55px;
+	
+	width: 100%;
+	
+	display: flex;
+	display : -webkit-box;
+	flex-direction: column;
+	-webkit-box-orient:vertical;
+	/*align-items: center;*/
+}
+
+#btn_student_system_into
+{
+	text-align: center;
+	margin: 25px auto;
+	display: block;
+	
+	width: 75%;
+	height: 35px;
+	
+	
+	font-size: 20px;
+	font-family: "arial, helvetica, sans-serif";
+	font-weight: 700;
+}
+
+#btn_teacher_system_into
+{
+	text-align: center;
+	margin: 25px auto;
+	display: block;
+	
+	width: 75%;
+	height: 35px;
+	
+	
+	font-size: 20px;
+	font-family: "arial, helvetica, sans-serif";
+	font-weight: 700;
+	
+}
+
+
+
+
+
